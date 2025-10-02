@@ -1,0 +1,15 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: check-yaml
+      - id: check-merge-conflict
+
+  - repo: https://github.com/prettier/prettier
+    rev: 3.3.3
+    hooks:
+      - id: prettier
+        additional_dependencies: [prettier@3.3.3]
+        files: "\.(js|ts|tsx|json|md|yaml|yml)$"
