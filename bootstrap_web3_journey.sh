@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PROJ="${1:-web3-journey}"
-mkdir -p "$PROJ"
-cd "$PROJ"
+# PROJ="${1:-web3-journey}"
+# mkdir -p "$PROJ"
+# cd "$PROJ"
 
 # --- Directories ---
 mkdir -p .github/workflows \
